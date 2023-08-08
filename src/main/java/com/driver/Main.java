@@ -5,6 +5,21 @@ public class Main {
         Product p = new Product();
         p.product(0,0);
         p.product(0,0,0);
-        p.product(1,1);
+        p.product(0.20,0.30);
+    }
+
+    public static class Product {
+
+        public int product(int x, int y) {
+            return 0;
+        }
+
+        public int product(int x, int y, int z) {
+            return 0;
+        }
+
+        public double product(double x, double y) {
+            return 0;
+        }
     }
 }
